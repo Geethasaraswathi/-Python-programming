@@ -1,0 +1,11 @@
+x=input("Enter a character")[0]
+print(x)
+if(x.isupper()):
+    print("Upper")
+elif(x.islower()):
+    print("Lower")
+elif(x.isdigit()):
+    print("Digit")
+else:
+    print("character")
+    
