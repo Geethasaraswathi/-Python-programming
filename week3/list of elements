@@ -1,0 +1,9 @@
+def printlist(elements):
+	for i in elements:
+    		print(i)
+elements=[]
+limit=int(input("Enter the limit:-"))
+for i in range(limit):
+    elem=int(input("Enter the elements of list:-"))
+    elements.append(elem)
+printlist(elements)
